@@ -1506,6 +1506,17 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url(https://media.discordapp.net/attachments/1227550486521974814/1274736760693198869/zsd0089_A_dark_planet_with_a_purple_gradient_in_the_middle_blac_9f677b9c-34a4-4cd6-af4d-b77655f28def.png?ex=66c3569f&is=66c2051f&hm=95bb98708c6c314c87771f69107cdf73f5da026d11dace523f0902304857255f&=&format=webp&quality=lossless&width=1151&height=645);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
