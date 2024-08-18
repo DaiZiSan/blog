@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zzkj.zeabur.app/%E5%B0%8F%E8%AF%B4%E5%AD%98%E5%82%A8.html</loc>
+    
+    <lastmod>2024-08-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zzkj.zeabur.app/manifest.json</loc>
     
     <lastmod>2024-08-16</lastmod>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://zzkj.zeabur.app/</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2024-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,21 +66,21 @@
   
   <url>
     <loc>https://zzkj.zeabur.app/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zzkj.zeabur.app/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zzkj.zeabur.app/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -80,7 +89,7 @@
   
   <url>
     <loc>https://zzkj.zeabur.app/categories/%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
