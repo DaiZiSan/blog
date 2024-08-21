@@ -1,7 +1,7 @@
 var now = new Date();
 
 function createtime() {
-    var startDate = new Date("01/08/2024 00:00:00");
+    var startDate = new Date("08/01/2024 00:00:00");
     now.setTime(now.getTime() + 250);
 
     var days = Math.floor((now - startDate) / 1e3 / 60 / 60 / 24);
