@@ -52,77 +52,7 @@ function _defineProperties(e, r) {
 // 创建类
 function _createClass(e, r, t) { 
     return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), e 
-// 配置
-var config = {
-    width: window.innerWidth,
-    height: window.innerHeight,
-    particleCount: 100, // 光点数量
-    maxSpeed: 2, // 最大速度
-    minSpeed: 0.5 // 最小速度
-};
-
-// 随机范围
-randomRange = function (e, r) {
-    return e + Math.random() * (r - e);
-};
-
-// 随机颜色
-randomColor = function () {
-    return `rgb(${0 | randomRange(0, 255)}, ${0 | randomRange(0, 255)}, ${0 | randomRange(0, 255)})`;
-};
-
-// 光点类
-class Particle {
-    constructor(canvas) {
-        this.canvas = canvas;
-        this.ctx = canvas.getContext('2d');
-        this.x = randomRange(0, this.canvas.width);
-        this.y = randomRange(0, this.canvas.height);
-        this.speedX = randomRange(config.minSpeed, config.maxSpeed);
-        this.speedY = randomRange(config.minSpeed, config.maxSpeed);
-        this.color = randomColor();
-        this.size = randomRange(1, 3);
-    }
-
-    update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-        if (this.x > this.canvas.width || this.x < 0) this.speedX = -this.speedX;
-        if (this.y > this.canvas.height || this.y < 0) this.speedY = -this.speedY;
-    }
-
-    draw() {
-        this.ctx.beginPath();
-        this.ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        this.ctx.fillStyle = this.color;
-        this.ctx.fill();
-    }
 }
-
-// 初始化Canvas
-var canvas = document.createElement('canvas');
-canvas.width = config.width;
-canvas.height = config.height;
-document.body.appendChild(canvas);
-
-// 创建光点
-var particles = [];
-for (let i = 0; i < config.particleCount; i++) {
-    particles.push(new Particle(canvas));
-}
-
-// 动画循环
-function animate() {
-    var ctx = canvas.getContext('2d');
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    particles.forEach(particle => {
-        particle.update();
-        particle.draw();
-    });
-    requestAnimationFrame(animate);
-}
-
-animate();
 
 // 配置
 var config = { src: "https://f.zhheo.com/Guli/others/open-peeps-sheet.png", rows: 15, cols: 7 },

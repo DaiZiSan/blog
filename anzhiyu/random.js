@@ -1,1 +1,0 @@
-var posts=["posts/make_blog_one_day_say.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
