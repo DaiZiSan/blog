@@ -81,7 +81,7 @@
   </url>
   
   <url>
-    <loc>https://zzkj.zeabur.app/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://zzkj.zeabur.app/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -89,6 +89,13 @@
   
   <url>
     <loc>https://zzkj.zeabur.app/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzkj.zeabur.app/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -108,24 +115,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://zzkj.zeabur.app/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://zzkj.zeabur.app/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://zzkj.zeabur.app/categories/%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zzkj.zeabur.app/categories/%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://zzkj.zeabur.app/categories/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
