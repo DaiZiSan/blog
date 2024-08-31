@@ -368,3 +368,10 @@
   #article-container figure.highlight {
     border-radius: 10px;
   }
+
+  #home_top {
+    margin: 1rem auto 0;
+    padding: 0px 15px;
+    max-width: 1450px;
+    width: 100%;
+  }
