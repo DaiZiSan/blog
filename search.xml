@@ -39,6 +39,41 @@
     
     
     <entry>
+      <title>科学课代表竞选演讲稿:当苹果开始飞翔</title>
+      <link href="/posts/kxyjg.html"/>
+      <url>/posts/kxyjg.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="科学课代表竞选演讲稿-当苹果开始飞翔"><a href="#科学课代表竞选演讲稿-当苹果开始飞翔" class="headerlink" title="科学课代表竞选演讲稿:当苹果开始飞翔"></a>科学课代表竞选演讲稿:当苹果开始飞翔</h1><div class="note info flat"><p>一份充满趣味和想象力的科学课代表竞选演讲稿,让我们一起走进神奇的科学世界!</p></div><p>亲爱的老师、同学们:</p><p>大家好!我是戴子善。今天我站在这里,不是因为地心引力把我吸住了,而是因为我想竞选科学课代表!</p><h2 id="仰望星空的科学少年"><a href="#仰望星空的科学少年" class="headerlink" title="仰望星空的科学少年"></a>仰望星空的科学少年</h2><p>你们知道为什么我总是抬头看天吗?并不是在数星星,而是在思考:</p><div class="tabs" id="tab"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="tab-1">牛顿的苹果</button><button type="button" class="tab " data-href="tab-2">无处不在的"为什么"</button></ul><div class="tab-contents"><div class="tab-item-content active" id="tab-1"><p>牛顿的苹果是不是像传说中那样改变了世界?科学告诉我们苹果只会往下掉,如果不是这样,我们吃苹果的时候可能真的要担心它会飞走。想象一下,咬了一口的苹果突然飞到天上,那画面一定很有趣!</p></div><div class="tab-item-content" id="tab-2"><p>作为一个热爱科学的学生,我的口头禅是”为什么”。</p><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>为什么天空是蓝的?</p>            </div><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>为什么猫咪总是能四脚着地?</p>            </div><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>为什么我的铅笔总是莫名其妙地消失?</p>            </div><p>好吧,最后一个可能不是科学问题,但它确实让我不断探寻答案!也许有一天,我们能发现铅笔会自己长腿跑掉的科学原理呢!</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><h2 id="作为科学课代表-我承诺"><a href="#作为科学课代表-我承诺" class="headerlink" title="作为科学课代表,我承诺:"></a>作为科学课代表,我承诺:</h2><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>在科学课堂上认真听讲</p>            </div><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>帮助老师管理实验器材</p>            </div><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>定期收集同学们的意见和建议</p>            </div><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>和大家一起协作</p>            </div><div class="note success flat"><p>谢谢大家!记得投票哦,不然我可能真的要研究一下”为什么我的选票会神奇地消失”这个有趣的问题了。</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 初中 </category>
+          
+          <category> 网络日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 个人成长 </tag>
+            
+            <tag> 小升初 </tag>
+            
+            <tag> 初一 </tag>
+            
+            <tag> 科学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客建成第一天感言</title>
       <link href="/posts/make_blog_one_day_say.html"/>
       <url>/posts/make_blog_one_day_say.html</url>
@@ -117,6 +152,17 @@
     
     
     <entry>
+      <title>友情鏈接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -151,10 +197,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime/runtime.js"/>
-      <url>/js/runtime/runtime.js</url>
+      <link href="/css/runtime/runtime.css"/>
+      <url>/css/runtime/runtime.css</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {    var startDate = new Date("08/01/2024 00:00:00");    now.setTime(now.getTime() + 250);    var days = Math.floor((now - startDate) / 1e3 / 60 / 60 / 24);    var hours = Math.floor((now - startDate) / 1e3 / 60 / 60 - 24 * days);    if (String(hours).length === 1) hours = "0" + hours;    var minutes = Math.floor((now - startDate) / 1e3 / 60 - 1440 * days - 60 * hours);    if (String(minutes).length === 1) minutes = "0" + minutes;    var seconds = Math.round((now - startDate) / 1e3 - 86400 * days - 3600 * hours - 60 * minutes);    if (String(seconds).length === 1) seconds = "0" + seconds;    let message = "";    if (hours >= 9 && hours < 18) {        message = `<img class='boardsign' src='https://images.mingming.dev/file/a2dcdeb341a726b2a78fa.png' title='距离达成一个小目标还有点差距'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`;    } else {        message = `<img class='boardsign' src='https://images.mingming.dev/file/a2dcdeb341a726b2a78fa.png' title='别着急，慢慢来'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`;    }    if (document.getElementById("workboard")) {        document.getElementById("workboard").innerHTML = message;    }}setInterval(() => {    createtime();}, 250);]]></content>
+        <content type="html"><![CDATA[div#runtime {    width: 180px;    margin: auto;    color: #fff;    padding-inline: 5px;    border-radius: 10px;    background-color: rgba(0, 0, 0, .7)}#workboard {    font-size: 12px}[data-theme=dark] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28, 69, 218, .71);    animation: flashlight 1s linear infinite alternate}#ghbdages .github-badge img {    height: 20px}@-moz-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@-webkit-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@-o-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}]]></content>
       
     </entry>
     
@@ -173,10 +219,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime/runtime.min.js"/>
-      <url>/js/runtime/runtime.min.js</url>
+      <link href="/js/runtime/runtime.js"/>
+      <url>/js/runtime/runtime.js</url>
       
-        <content type="html"><![CDATA[var now=new Date;function createtime(){var startDate=new Date("01/08/2024 00:00:00");now.setTime(now.getTime()+250);var days=Math.floor((now-startDate)/1e3/60/60/24),hours=Math.floor((now-startDate)/1e3/60/60-24*days);1===String(hours).length&&(hours="0"+hours);var minutes=Math.floor((now-startDate)/1e3/60-1440*days-60*hours);1===String(minutes).length&&(minutes="0"+minutes);var seconds=Math.round((now-startDate)/1e3-86400*days-3600*hours-60*minutes);1===String(seconds).length&&(seconds="0"+seconds);let message="";message=hours>=9&&hours<18?`<img class='boardsign' src='https://images.mingming.dev/file/367a357c8da5b18c456a7.png' title='距离达成一个小目标还有点差距'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<img class='boardsign' src='https://images.mingming.dev/file/367a357c8da5b18c456a7.png' title='别着急，慢慢来'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=message)}setInterval(()=>{createtime()},250);]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {    var startDate = new Date("08/01/2024 00:00:00");    now.setTime(now.getTime() + 250);    var days = Math.floor((now - startDate) / 1e3 / 60 / 60 / 24);    var hours = Math.floor((now - startDate) / 1e3 / 60 / 60 - 24 * days);    if (String(hours).length === 1) hours = "0" + hours;    var minutes = Math.floor((now - startDate) / 1e3 / 60 - 1440 * days - 60 * hours);    if (String(minutes).length === 1) minutes = "0" + minutes;    var seconds = Math.round((now - startDate) / 1e3 - 86400 * days - 3600 * hours - 60 * minutes);    if (String(seconds).length === 1) seconds = "0" + seconds;    let message = "";    if (hours >= 9 && hours < 18) {        message = `<img class='boardsign' src='https://images.mingming.dev/file/a2dcdeb341a726b2a78fa.png' title='距离达成一个小目标还有点差距'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`;    } else {        message = `<img class='boardsign' src='https://images.mingming.dev/file/a2dcdeb341a726b2a78fa.png' title='别着急，慢慢来'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`;    }    if (document.getElementById("workboard")) {        document.getElementById("workboard").innerHTML = message;    }}setInterval(() => {    createtime();}, 250);]]></content>
       
     </entry>
     
@@ -184,21 +230,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/runtime/runtime.css"/>
-      <url>/css/runtime/runtime.css</url>
+      <link href="/js/runtime/runtime.min.js"/>
+      <url>/js/runtime/runtime.min.js</url>
       
-        <content type="html"><![CDATA[div#runtime {    width: 180px;    margin: auto;    color: #fff;    padding-inline: 5px;    border-radius: 10px;    background-color: rgba(0, 0, 0, .7)}#workboard {    font-size: 12px}[data-theme=dark] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28, 69, 218, .71);    animation: flashlight 1s linear infinite alternate}#ghbdages .github-badge img {    height: 20px}@-moz-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@-webkit-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@-o-keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}@keyframes flashlight {    from {        box-shadow: 0 0 5px #1478d2    }    to {        box-shadow: 0 0 2px #1478d2    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友情鏈接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now=new Date;function createtime(){var startDate=new Date("01/08/2024 00:00:00");now.setTime(now.getTime()+250);var days=Math.floor((now-startDate)/1e3/60/60/24),hours=Math.floor((now-startDate)/1e3/60/60-24*days);1===String(hours).length&&(hours="0"+hours);var minutes=Math.floor((now-startDate)/1e3/60-1440*days-60*hours);1===String(minutes).length&&(minutes="0"+minutes);var seconds=Math.round((now-startDate)/1e3-86400*days-3600*hours-60*minutes);1===String(seconds).length&&(seconds="0"+seconds);let message="";message=hours>=9&&hours<18?`<img class='boardsign' src='https://images.mingming.dev/file/367a357c8da5b18c456a7.png' title='距离达成一个小目标还有点差距'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<img class='boardsign' src='https://images.mingming.dev/file/367a357c8da5b18c456a7.png' title='别着急，慢慢来'><span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=message)}setInterval(()=>{createtime()},250);]]></content>
       
     </entry>
     
