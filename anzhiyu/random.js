@@ -1,1 +1,1 @@
-var posts=["posts/make_blog_one_day_say.html","posts/kxyjg.html","posts/maths.html","posts/0.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["posts/maths.html","posts/make_blog_one_day_say.html","posts/kxyjg.html","posts/0.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
