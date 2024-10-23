@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zzkj.zeabur.app/posts/0.html</loc>
-    
-    <lastmod>2024-10-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zzkj.zeabur.app/posts/maths.html</loc>
     
     <lastmod>2024-08-24</lastmod>
