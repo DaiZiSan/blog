@@ -375,3 +375,137 @@
     max-width: 1450px;
     width: 100%;
   }
+  /* ... 现有代码保持不变 ... */
+
+/* 悬浮光点特效 */
+.floating-light {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #49b1f5;
+  pointer-events: none;
+  animation: floatingLight 15s infinite linear;
+  z-index: 999;
+  box-shadow: 0 0 20px #49b1f5;
+}
+
+@keyframes floatingLight {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--move-x, 100px), var(--move-y, 100px));
+    opacity: 0;
+  }
+}
+
+/* 确保body样式正确 */
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* 光点阴影效果 */
+.floating-light {
+  box-shadow: 0 0 10px rgba(73, 177, 245, 0.4);
+}
+
+/* 光点大小随机 */
+.floating-light.small {
+  width: 4px;
+  height: 4px;
+}
+
+.floating-light.large {
+  width: 8px;
+  height: 8px;
+}
+
+/* 首页动画相关样式 */
+.home-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  transition: opacity 1s ease-in-out;
+}
+
+.home-light {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background: #49b1f5;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0 0 15px #49b1f5;
+  pointer-events: none;
+}
+
+.home-explosion {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  z-index: 1000;
+  border-radius: 50%;
+  background: #49b1f5;
+  animation: explode 1s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(100);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(200);
+    opacity: 0;
+  }
+}
+
+/* 首页内容淡入效果 */
+.home-content {
+  transition: opacity 1s ease-in-out;
+}
+
+/* 光点大小随机 */
+.home-light.small {
+  width: 4px;
+  height: 4px;
+}
+
+.home-light.large {
+  width: 12px;
+  height: 12px;
+}
+
+/* 光点轨迹 */
+.home-light::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  filter: blur(2px);
+}
