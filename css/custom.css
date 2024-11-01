@@ -383,11 +383,11 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #49b1f5;
+  background-color: rgba(255, 255, 255, 0.6);
   pointer-events: none;
   animation: floatingLight 15s infinite linear;
-  z-index: 999;
-  box-shadow: 0 0 20px #49b1f5;
+  z-index: -1;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 @keyframes floatingLight {
@@ -446,10 +446,10 @@ body {
   position: fixed;
   width: 8px;
   height: 8px;
-  background: #49b1f5;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  z-index: 1000;
-  box-shadow: 0 0 15px #49b1f5;
+  z-index: -1;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   pointer-events: none;
 }
 
@@ -457,9 +457,9 @@ body {
   position: fixed;
   width: 4px;
   height: 4px;
-  z-index: 1000;
+  z-index: -1;
   border-radius: 50%;
-  background: #49b1f5;
+  background: rgba(255, 255, 255, 0.8);
   animation: explode 1s ease-out forwards;
   pointer-events: none;
 }
@@ -508,4 +508,59 @@ body {
   transform: translate(-50%, -50%);
   opacity: 0.3;
   filter: blur(2px);
+}
+
+/* 量子光点样式 */
+.quantum-light {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: -1;
+  transition: opacity 0.5s ease-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  animation: quantumFade 5s ease-out forwards;
+}
+
+@keyframes quantumFade {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+/* 在现有CSS基础上添加以下样式 */
+
+.welcome-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  transition: opacity 1s ease-in-out;
+}
+
+.home-content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  pointer-events: none;
 }
