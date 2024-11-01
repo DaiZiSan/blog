@@ -564,3 +564,48 @@ canvas {
   z-index: 10000;
   pointer-events: none;
 }
+
+/* 添加以下样式 */
+.welcome-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.welcome-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.welcome-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.particle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  pointer-events: none;
+}
+
+#content-inner {
+  transition: opacity 1s ease-in-out;
+}
